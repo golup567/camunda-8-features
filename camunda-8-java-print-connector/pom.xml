@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.java.connectors</groupId>
+  <artifactId>print-connector</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>print-connector</name>
+  <description>Camunda print connector using java</description>
+  <properties>
+  <version.connectors>8.7.0</version.connectors>
+  </properties>
+  <dependencies>
+  	<dependency>
+	  <groupId>io.camunda.connector</groupId>
+	  <artifactId>connector-core</artifactId>
+	  <version>${version.connectors}</version>
+	</dependency>
+  </dependencies>
+  
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
+      <configuration>
+        <source>21</source>
+        <target>21</target>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+</project>

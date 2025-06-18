@@ -10,5 +10,5 @@ export SERVER_PORT=8081
 
 #Command to run connnector as java application.
 
-java -cp '/Users/shankarprajapat/checkout/tech-workspace/bpmn/camunda/8/feature/camunda-8-features/jar/connector-runtime-bundle-8.7.0-with-dependencies.jar:print-connector-0.0.1-SNAPSHOT.jar'   io.camunda.connector.runtime.app.ConnectorRuntimeApplication
+java -cp 'path-to/connector-runtime-bundle-8.7.0-with-dependencies.jar:print-connector-0.0.1-SNAPSHOT.jar'   io.camunda.connector.runtime.app.ConnectorRuntimeApplication
 
